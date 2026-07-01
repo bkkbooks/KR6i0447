@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0447/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說五無返復經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0751b.xml
+    old_id: T17n0751b
+hash: sha256:5b6be5c84ddd006dee268f726412dc752c8b3b5ec617e4b92cd7f61e1de81d63

@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6i0447/v1
+canonical_location: https://kanripo.org/bkk/KR6i0447/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說五無返復經
+  identifiers:
+    alt_id:
+    - T17n0751b
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0751b.xml
+    old_id: T17n0751b
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0447_000.yaml, hash: 'sha256:5b6be5c84ddd006dee268f726412dc752c8b3b5ec617e4b92cd7f61e1de81d63'}
+  - {seq: 1, filename: KR6i0447_001.yaml, hash: 'sha256:cb349e2d9ee0c18967dd4ebcee29186ce147fe4fbc7f3438cb00a97333b9c816'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0447_001.markers.yaml, hash: 'sha256:8014cad3e5649ce9f0b155b4f3bb4ea5f172bbb103e409879da3076ebdde888e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0447_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 992
+  label: 佛說五無返復經
+  type: juan
+  level: 1
+hash: sha256:af5887d113f15c19f7e1c7448992431ae237d350ff78e583ce20d2b2ed09bb55
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
