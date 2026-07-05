@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0447_000.yaml, hash: 'sha256:5b6be5c84ddd006dee268f726412dc752c8b3b5ec617e4b92cd7f61e1de81d63'}
-  - {seq: 1, filename: KR6i0447_001.yaml, hash: 'sha256:cb349e2d9ee0c18967dd4ebcee29186ce147fe4fbc7f3438cb00a97333b9c816'}
+  - {seq: 1, filename: KR6i0447_001.yaml, hash: 'sha256:6de455c65debc1e62cfe859b8682f14aa7c41484d2bf9c27e5b1c5d32f088890'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0447_001.markers.yaml, hash: 'sha256:8014cad3e5649ce9f0b155b4f3bb4ea5f172bbb103e409879da3076ebdde888e'}
+  - {seq: 0, role: markers, filename: assets/KR6i0447_000.markers.yaml, hash: 'sha256:b39c1daef703e2e746efbf5c643bfaa7d3ec3452506b2e37ccd869f3360d8de1'}
+  - {seq: 1, role: markers, filename: assets/KR6i0447_001.markers.yaml, hash: 'sha256:206a5d6aa48ead621c577d9a2a57f2fc7a60e1738a5bd060b4ee6aae59f14dbc'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 佛說五無返復經
   type: juan
   level: 1
-hash: sha256:af5887d113f15c19f7e1c7448992431ae237d350ff78e583ce20d2b2ed09bb55
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:850ab7a23616fea8e89b9c7ea853ea519f18007c467144b991d24e8e079aebda
